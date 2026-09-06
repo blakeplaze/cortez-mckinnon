@@ -9,13 +9,13 @@ export default function HomePage() {
 
   return (
     <div>
-      <section className="relative overflow-hidden border-b border-white/5">
-        <div className="mx-auto grid min-h-[86vh] max-w-6xl items-center gap-10 px-5 py-16 md:grid-cols-2">
-          <div>
+      <section className="relative border-b border-white/5">
+        <div className="mx-auto grid min-h-[86vh] max-w-6xl items-center gap-8 px-5 py-16 md:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)]">
+          <div className="min-w-0">
             <p className="text-[0.72rem] tracking-[0.28em] text-muted uppercase">
               Tuscaloosa hip-hop · est. 1996
             </p>
-            <h1 className="display mt-4 text-[5.4rem] leading-[0.82] sm:text-[7.5rem]">
+            <h1 className="display mt-4 text-[clamp(3.4rem,8.4vw,6.4rem)] leading-[0.86] tracking-[0.02em]">
               TEZZ
               <br />
               MCKINNON
@@ -33,7 +33,7 @@ export default function HomePage() {
               </Link>
             </div>
           </div>
-          <Link href="/product/1996-shirt" className="relative mx-auto w-full max-w-md">
+          <Link href="/product/1996-shirt" className="relative mx-auto w-full max-w-sm lg:max-w-md">
             <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-[#111]">
               <Image
                 src="/merch/1996-shirt.jpg"
