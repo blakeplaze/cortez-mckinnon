@@ -29,6 +29,7 @@ body {
 .display {
   font-family: var(--font-display), Impact, sans-serif;
   letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .grain {

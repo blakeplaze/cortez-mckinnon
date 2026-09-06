@@ -18,7 +18,7 @@ export default function HomePage() {
             <h1 className="display mt-4 text-[5.4rem] leading-[0.82] sm:text-[7.5rem]">
               TEZZ
               <br />
-              McKINNON
+              MCKINNON
             </h1>
             <p className="mt-6 max-w-md text-sm leading-6 text-cream/70">
               Shirts and visuals. Nothing extra. Shop the 1996 line or play the
