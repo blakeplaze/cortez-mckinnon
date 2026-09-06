@@ -24,7 +24,7 @@ export function Footer() {
             Instagram
           </a>
           <a
-            href="https://www.youtube.com/@CortezMckinnon"
+            href="https://www.youtube.com/c/CortezMckinnon"
             className="block hover:text-cream"
             target="_blank"
             rel="noreferrer"

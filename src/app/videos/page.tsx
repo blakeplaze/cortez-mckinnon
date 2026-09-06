@@ -17,7 +17,7 @@ export default function VideosPage() {
         <VideoGallery />
       </div>
       <a
-        href="https://www.youtube.com/@CortezMckinnon"
+        href="https://www.youtube.com/c/CortezMckinnon"
         target="_blank"
         rel="noreferrer"
         className="btn btn-ghost mt-10"
