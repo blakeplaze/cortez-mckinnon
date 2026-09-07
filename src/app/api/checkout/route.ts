@@ -12,7 +12,7 @@ export async function POST(request: Request) {
     return NextResponse.json(
       {
         error:
-          "Payments are not connected yet. Add a Stripe secret key to .env.local as STRIPE_SECRET_KEY.",
+          "Payments are not connected yet. In Netlify, add STRIPE_SECRET_KEY (spelled exactly that way) and trigger a new deploy.",
       },
       { status: 503 },
     );
