@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { useCart } from "@/lib/cart";
+import { HudClock } from "@/components/HudClock";
 
 const links = [
   { href: "/shop", label: "Shop" },
@@ -39,7 +40,8 @@ export function Header() {
           </span>
         </nav>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-4">
+          <HudClock />
           <button
             type="button"
             onClick={() => setOpen(true)}

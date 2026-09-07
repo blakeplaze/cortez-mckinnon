@@ -52,6 +52,16 @@ export default function HomePage() {
         </div>
       </section>
 
+      <div className="ticker border-b border-ice/15" aria-hidden="true">
+        <div className="ticker-track">
+          {Array.from({ length: 8 }).map((_, index) => (
+            <span key={index}>
+              EST. 1996 · HARD HITTAZ · TUSCALOOSA · TEZZ MCKINNON · SIGNAL LIVE ·
+            </span>
+          ))}
+        </div>
+      </div>
+
       <section className="mx-auto max-w-6xl px-5 py-20">
         <div className="mb-8 flex items-end justify-between">
           <h2 className="display text-5xl sm:text-6xl">Most popular</h2>

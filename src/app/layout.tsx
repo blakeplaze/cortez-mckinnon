@@ -3,6 +3,7 @@ import { Bebas_Neue, IBM_Plex_Mono, Inter } from "next/font/google";
 import { CartProvider } from "@/lib/cart";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { PointerGlow } from "@/components/PointerGlow";
 import { CartDrawer } from "@/components/CartDrawer";
 import "./globals.css";
 
@@ -36,6 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <CartProvider>
           <div className="scan" />
           <div className="grain" />
+          <PointerGlow />
           <Header />
           <main className="pt-16">{children}</main>
           <Footer />
