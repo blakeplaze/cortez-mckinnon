@@ -261,37 +261,13 @@ body {
   mix-blend-mode: screen;
 }
 
-.ticker {
-  overflow: hidden;
-  background: rgba(110, 231, 224, 0.04);
-}
-
-.ticker-track {
-  display: flex;
-  width: max-content;
-  gap: 2.5rem;
-  padding: 0.7rem 0;
-  font-family: var(--font-mono), ui-monospace, monospace;
-  font-size: 0.68rem;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: rgba(110, 231, 224, 0.72);
-  animation: ticker 28s linear infinite;
-}
-
-@keyframes ticker {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
-}
-
 @media (prefers-reduced-motion: reduce) {
   .tech-grid::before,
   .tech-grid::after,
   .hud-live,
   .live-dot,
   .eq span,
-  .play-pulse,
-  .ticker-track {
+  .play-pulse {
     animation: none;
   }
 
