@@ -12,8 +12,9 @@ export default function HomePage() {
       <section className="tech-grid relative border-b border-ice/15">
         <div className="relative mx-auto grid min-h-[86vh] max-w-6xl items-center gap-8 px-5 py-16 md:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)]">
           <div className="min-w-0">
-            <p className="mono text-[0.68rem] tracking-[0.28em] text-ice uppercase">
-              Tuscaloosa hip-hop · est. 1996
+            <p className="mono flex flex-wrap items-center gap-3 text-[0.68rem] tracking-[0.28em] text-ice uppercase">
+              <span className="live-dot" />
+              Signal live · tuscaloosa · est. 1996
             </p>
             <h1 className="display glow-text mt-4 text-[clamp(3.4rem,8.4vw,6.4rem)] leading-[0.86] tracking-[0.02em]">
               TEZZ
@@ -34,7 +35,7 @@ export default function HomePage() {
             </div>
           </div>
           <Link href="/product/1996-shirt" className="relative mx-auto w-full max-w-sm lg:max-w-md">
-            <div className="hud overflow-hidden border border-ice/25 bg-[#0a1012]">
+            <div className="hud hud-live overflow-hidden border border-ice/25 bg-[#0a1012]">
               <Image
                 src="/merch/1996-shirt.jpg"
                 alt="1996 Shirt"

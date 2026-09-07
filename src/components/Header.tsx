@@ -21,7 +21,7 @@ export function Header() {
           <span className="mono block text-[0.62rem] tracking-[0.28em] text-ice/75">EST. 1996</span>
         </Link>
 
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-5 md:flex">
           {links.map((link) => (
             <Link
               key={link.href}
@@ -31,6 +31,12 @@ export function Header() {
               {link.label}
             </Link>
           ))}
+          <span className="eq" aria-hidden="true">
+            <span />
+            <span />
+            <span />
+            <span />
+          </span>
         </nav>
 
         <div className="flex items-center gap-3">

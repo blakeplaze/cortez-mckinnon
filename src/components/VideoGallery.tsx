@@ -27,7 +27,7 @@ export function VideoGallery({ limit }: { limit?: number }) {
                 sizes="(max-width: 1024px) 50vw, 25vw"
               />
               <span className="absolute inset-0 flex items-center justify-center">
-                <span className="rounded-sm bg-ice px-4 py-2 text-[0.65rem] font-semibold tracking-[0.16em] text-ink uppercase">
+                <span className="play-pulse rounded-sm bg-ice px-4 py-2 text-[0.65rem] font-semibold tracking-[0.16em] text-ink uppercase">
                   Play
                 </span>
               </span>
