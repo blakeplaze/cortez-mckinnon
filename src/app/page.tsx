@@ -9,13 +9,13 @@ export default function HomePage() {
 
   return (
     <div>
-      <section className="relative border-b border-white/5">
-        <div className="mx-auto grid min-h-[86vh] max-w-6xl items-center gap-8 px-5 py-16 md:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)]">
+      <section className="tech-grid relative border-b border-ice/15">
+        <div className="relative mx-auto grid min-h-[86vh] max-w-6xl items-center gap-8 px-5 py-16 md:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)]">
           <div className="min-w-0">
-            <p className="text-[0.72rem] tracking-[0.28em] text-muted uppercase">
+            <p className="mono text-[0.68rem] tracking-[0.28em] text-ice uppercase">
               Tuscaloosa hip-hop · est. 1996
             </p>
-            <h1 className="display mt-4 text-[clamp(3.4rem,8.4vw,6.4rem)] leading-[0.86] tracking-[0.02em]">
+            <h1 className="display glow-text mt-4 text-[clamp(3.4rem,8.4vw,6.4rem)] leading-[0.86] tracking-[0.02em]">
               TEZZ
               <br />
               MCKINNON
@@ -34,7 +34,7 @@ export default function HomePage() {
             </div>
           </div>
           <Link href="/product/1996-shirt" className="relative mx-auto w-full max-w-sm lg:max-w-md">
-            <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-[#111]">
+            <div className="hud overflow-hidden border border-ice/25 bg-[#0a1012]">
               <Image
                 src="/merch/1996-shirt.jpg"
                 alt="1996 Shirt"
@@ -44,7 +44,7 @@ export default function HomePage() {
                 className="aspect-square w-full object-cover"
               />
             </div>
-            <p className="mt-3 text-center text-xs tracking-[0.2em] text-muted uppercase">
+            <p className="mono mt-3 text-center text-[0.68rem] tracking-[0.2em] text-ice/80 uppercase">
               Featured · 1996 Shirt · $34
             </p>
           </Link>
@@ -54,7 +54,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-5 py-20">
         <div className="mb-8 flex items-end justify-between">
           <h2 className="display text-5xl sm:text-6xl">Most popular</h2>
-          <Link href="/shop" className="hidden text-xs tracking-[0.18em] uppercase text-muted hover:text-cream sm:block">
+          <Link href="/shop" className="mono hidden text-[0.68rem] tracking-[0.18em] uppercase text-ice/80 hover:text-ice sm:block">
             Shop all
           </Link>
         </div>
@@ -65,11 +65,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="border-y border-white/5 bg-white/2 py-20">
+      <section className="border-y border-ice/10 bg-ice/3 py-20">
         <div className="mx-auto max-w-6xl px-5">
           <div className="mb-8 flex items-end justify-between">
             <h2 className="display text-5xl sm:text-6xl">Latest visuals</h2>
-            <Link href="/videos" className="hidden text-xs tracking-[0.18em] uppercase text-muted hover:text-cream sm:block">
+            <Link href="/videos" className="mono hidden text-[0.68rem] tracking-[0.18em] uppercase text-ice/80 hover:text-ice sm:block">
               All videos
             </Link>
           </div>

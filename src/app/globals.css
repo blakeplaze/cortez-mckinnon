@@ -1,10 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --ink: #070707;
-  --cream: #ebe4d6;
-  --muted: #9a9286;
-  --line: #262626;
+  --ink: #05070a;
+  --cream: #e8eef2;
+  --muted: #7d8a93;
+  --line: #1c262b;
+  --ice: #6ee7e0;
 }
 
 @theme inline {
@@ -12,8 +13,10 @@
   --color-cream: var(--cream);
   --color-muted: var(--muted);
   --color-line: var(--line);
+  --color-ice: var(--ice);
   --font-sans: var(--font-inter);
   --font-display: var(--font-bebas);
+  --font-mono: var(--font-plex);
 }
 
 html {
@@ -21,7 +24,10 @@ html {
 }
 
 body {
-  background: var(--ink);
+  background:
+    radial-gradient(900px 420px at 85% 0%, rgba(110, 231, 224, 0.09), transparent 55%),
+    radial-gradient(700px 380px at 10% 100%, rgba(110, 231, 224, 0.05), transparent 50%),
+    var(--ink);
   color: var(--cream);
   font-family: var(--font-sans), system-ui, sans-serif;
 }
@@ -32,27 +38,63 @@ body {
   text-transform: uppercase;
 }
 
-.grain {
+.mono {
+  font-family: var(--font-mono), ui-monospace, monospace;
+}
+
+.grain,
+.scan {
   pointer-events: none;
   position: fixed;
   inset: 0;
+}
+
+.grain {
   z-index: 50;
-  opacity: 0.09;
+  opacity: 0.07;
   mix-blend-mode: overlay;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.scan {
+  z-index: 49;
+  opacity: 0.18;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 2px,
+    rgba(0, 0, 0, 0.22) 2px,
+    rgba(0, 0, 0, 0.22) 3px
+  );
+}
+
+.tech-grid {
+  position: relative;
+}
+
+.tech-grid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(110, 231, 224, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(110, 231, 224, 0.07) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: linear-gradient(to bottom, black 20%, transparent 88%);
 }
 
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 999px;
+  border-radius: 2px;
   padding: 0.85rem 1.4rem;
   font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  transition: transform 180ms ease, background 180ms ease, color 180ms ease, border-color 180ms ease;
+  transition: transform 180ms ease, background 180ms ease, color 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
 }
 
 .btn:hover {
@@ -60,24 +102,61 @@ body {
 }
 
 .btn-solid {
-  background: var(--cream);
-  color: var(--ink);
+  background: var(--ice);
+  color: #031014;
+  box-shadow: 0 0 22px rgba(110, 231, 224, 0.28);
 }
 
 .btn-ghost {
-  border: 1px solid rgba(235, 228, 214, 0.28);
+  border: 1px solid rgba(110, 231, 224, 0.35);
   color: var(--cream);
 }
 
 .btn-ghost:hover {
-  border-color: var(--cream);
+  border-color: var(--ice);
+  color: var(--ice);
+  box-shadow: 0 0 18px rgba(110, 231, 224, 0.18);
 }
 
 .card-hover {
-  transition: transform 280ms ease, border-color 280ms ease;
+  transition: transform 280ms ease, border-color 280ms ease, box-shadow 280ms ease;
 }
 
 .card-hover:hover {
   transform: translateY(-4px);
-  border-color: rgba(235, 228, 214, 0.28);
+  border-color: rgba(110, 231, 224, 0.4);
+  box-shadow: 0 0 28px rgba(110, 231, 224, 0.1);
+}
+
+.hud {
+  position: relative;
+}
+
+.hud::before,
+.hud::after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--ice);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.hud::before {
+  top: 8px;
+  left: 8px;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.hud::after {
+  right: 8px;
+  bottom: 8px;
+  border-left: 0;
+  border-top: 0;
+}
+
+.glow-text {
+  text-shadow: 0 0 28px rgba(110, 231, 224, 0.22);
 }

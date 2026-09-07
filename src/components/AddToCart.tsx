@@ -22,10 +22,10 @@ export function AddToCart({ slug, sizes }: { slug: string; sizes: readonly strin
                 setSize(option);
                 setError("");
               }}
-              className={`min-w-12 rounded-full border px-3 py-2 text-xs tracking-[0.08em] ${
+              className={`min-w-12 rounded-sm border px-3 py-2 text-xs tracking-[0.08em] ${
                 size === option
-                  ? "border-cream bg-cream text-ink"
-                  : "border-white/15 text-cream hover:border-cream"
+                  ? "border-ice bg-ice text-ink"
+                  : "border-ice/25 text-cream hover:border-ice"
               }`}
             >
               {option}

@@ -2,11 +2,11 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="border-t border-white/5 px-5 py-14">
+    <footer className="border-t border-ice/15 px-5 py-14">
       <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-3">
         <div>
           <p className="display text-4xl text-cream">TEZZ McKINNON</p>
-          <p className="mt-2 text-xs tracking-[0.22em] text-muted">EST. 1996 · TUSCALOOSA</p>
+          <p className="mono mt-2 text-xs tracking-[0.22em] text-ice/75">EST. 1996 · TUSCALOOSA</p>
         </div>
         <div className="space-y-2 text-sm text-cream/75">
           <Link href="/shop" className="block hover:text-cream">

@@ -14,11 +14,11 @@ export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-40 border-b border-white/5 bg-ink/75 backdrop-blur-md">
+    <header className="fixed inset-x-0 top-0 z-40 border-b border-ice/20 bg-ink/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5">
         <Link href="/" className="leading-none" onClick={() => setMenuOpen(false)}>
           <span className="display block text-[1.7rem] text-cream">TEZZ McKINNON</span>
-          <span className="block text-[0.62rem] tracking-[0.28em] text-muted">EST. 1996</span>
+          <span className="mono block text-[0.62rem] tracking-[0.28em] text-ice/75">EST. 1996</span>
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
@@ -26,7 +26,7 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-[0.72rem] tracking-[0.18em] text-cream/80 uppercase hover:text-cream"
+              className="mono text-[0.68rem] tracking-[0.18em] text-cream/80 uppercase hover:text-ice"
             >
               {link.label}
             </Link>
@@ -37,11 +37,11 @@ export function Header() {
           <button
             type="button"
             onClick={() => setOpen(true)}
-            className="relative text-[0.72rem] tracking-[0.18em] uppercase"
+            className="mono relative text-[0.68rem] tracking-[0.18em] uppercase hover:text-ice"
           >
             Cart
             {count > 0 && (
-              <span className="absolute -right-3 -top-2 rounded-full bg-cream px-1.5 text-[0.62rem] font-semibold text-ink">
+              <span className="absolute -right-3 -top-2 rounded-sm bg-ice px-1.5 text-[0.62rem] font-semibold text-ink">
                 {count}
               </span>
             )}

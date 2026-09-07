@@ -18,7 +18,7 @@ export function CartDrawer() {
         aria-label="Close cart"
         onClick={() => setOpen(false)}
       />
-      <aside className="absolute inset-y-0 right-0 flex w-full max-w-md flex-col border-l border-white/10 bg-ink">
+      <aside className="absolute inset-y-0 right-0 flex w-full max-w-md flex-col border-l border-ice/20 bg-ink">
         <div className="flex items-center justify-between border-b border-white/5 px-5 py-4">
           <h2 className="display text-3xl">Cart</h2>
           <button type="button" className="text-xs tracking-[0.16em] uppercase" onClick={() => setOpen(false)}>

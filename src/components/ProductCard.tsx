@@ -4,8 +4,8 @@ import { formatPrice, type Product } from "@/lib/products";
 
 export function ProductCard({ product }: { product: Product }) {
   return (
-    <Link href={`/product/${product.slug}`} className="card-hover group block rounded-2xl border border-white/8 bg-white/2 p-3">
-      <div className="overflow-hidden rounded-xl bg-[#111]">
+    <Link href={`/product/${product.slug}`} className="card-hover group block border border-ice/15 bg-white/2 p-3">
+      <div className="overflow-hidden bg-[#0a1012]">
         <Image
           src={product.image}
           alt={product.name}
@@ -16,7 +16,7 @@ export function ProductCard({ product }: { product: Product }) {
       </div>
       <div className="px-1 pb-2 pt-4">
         <p className="text-sm">{product.name}</p>
-        <p className="mt-1 text-sm text-muted">{formatPrice(product.price)}</p>
+        <p className="mono mt-1 text-sm text-ice/80">{formatPrice(product.price)}</p>
       </div>
     </Link>
   );

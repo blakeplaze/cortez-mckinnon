@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Bebas_Neue, Inter } from "next/font/google";
+import { Bebas_Neue, IBM_Plex_Mono, Inter } from "next/font/google";
 import { CartProvider } from "@/lib/cart";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -17,6 +17,12 @@ const bebas = Bebas_Neue({
   variable: "--font-bebas",
 });
 
+const plex = IBM_Plex_Mono({
+  weight: ["400", "500"],
+  subsets: ["latin"],
+  variable: "--font-plex",
+});
+
 export const metadata: Metadata = {
   title: "Tezz McKinnon est. 1996",
   description:
@@ -26,8 +32,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${bebas.variable} antialiased`}>
+      <body className={`${inter.variable} ${bebas.variable} ${plex.variable} antialiased`}>
         <CartProvider>
+          <div className="scan" />
           <div className="grain" />
           <Header />
           <main className="pt-16">{children}</main>

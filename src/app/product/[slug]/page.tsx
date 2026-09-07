@@ -21,7 +21,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
   return (
     <div className="mx-auto grid max-w-6xl gap-10 px-5 py-16 md:grid-cols-2">
-      <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-[#111]">
+      <div className="hud overflow-hidden border border-ice/25 bg-[#0a1012]">
         <Image
           src={product.image}
           alt={product.name}
