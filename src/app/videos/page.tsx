@@ -10,7 +10,7 @@ export default function VideosPage() {
       <p className="text-[0.72rem] tracking-[0.24em] text-muted uppercase">Visuals</p>
       <h1 className="display mt-2 text-6xl sm:text-7xl">Latest videos</h1>
       <p className="mt-4 max-w-xl text-sm text-cream/70">
-        Official videos from Cortez McKinnon. Click one to play. Full catalog is
+        Official videos from BFN Tezz. Click one to play. Full catalog is
         on YouTube.
       </p>
       <div className="mt-12">

@@ -51,7 +51,7 @@ export function Footer() {
         </div>
       </div>
       <p className="mx-auto mt-12 max-w-6xl text-xs tracking-[0.16em] text-muted/70 uppercase">
-        © {new Date().getFullYear()} Cortez McKinnon
+        © {new Date().getFullYear()} BFN Tezz
       </p>
     </footer>
   );

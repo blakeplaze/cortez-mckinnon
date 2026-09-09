@@ -81,8 +81,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-3xl px-5 py-20">
         <h2 className="display text-5xl">The artist</h2>
         <p className="mt-6 text-sm leading-7 text-cream/75">
-          Demetrius Cortez McKinnon, professionally known as Cortez McKinnon and
-          BFN Tezz, is a hip-hop artist from Tuscaloosa, Alabama. Music
+          BFN Tezz is a hip-hop artist from Tuscaloosa, Alabama. Music
           became the way out — raw stories, independent releases, and his own
           label, Hard Hittaz Entertainment. This site is for the shirts and the
           videos. Everything else lives on YouTube and Instagram.

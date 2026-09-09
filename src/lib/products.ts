@@ -28,7 +28,7 @@ export const products: Product[] = [
     image: "/merch/life-without-limits.jpg",
     popular: true,
     description:
-      "Tuscaloosa, AL. Genuine Cortez McKinnon merchandise, licensed since 1996.",
+      "Tuscaloosa, AL. Genuine BFN Tezz merchandise, licensed since 1996.",
   },
   {
     slug: "denim-eagle-96",
