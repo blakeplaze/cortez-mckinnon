@@ -45,8 +45,8 @@ export function Footer() {
             Ships in 5–10 business days in the USA, 10–30 internationally. No
             returns. All sales final.
           </p>
-          <a href="mailto:mixedbytezz@gmail.com" className="block text-cream/80 hover:text-cream">
-            mixedbytezz@gmail.com
+          <a href="mailto:Tezz@BFNTezz.com" className="block text-cream/80 hover:text-cream">
+            Tezz@BFNTezz.com
           </a>
         </div>
       </div>
