@@ -38,6 +38,6 @@ This is a Next.js app, so connect the GitHub repo to Netlify. Do not use a drag-
    - Publish directory: `.next`
 4. Add environment variables before the first production deploy:
    - `STRIPE_SECRET_KEY` — your Stripe secret key
-   - `NEXT_PUBLIC_SITE_URL` — the live URL, like `https://your-site.netlify.app`
+   - `NEXT_PUBLIC_SITE_URL` — the live URL, like `https://bfntezz.com`
 5. Deploy. Netlify will give you a `*.netlify.app` URL.
-6. Later, point `cortezmckinnon.com` at Netlify in **Domain settings**, then update `NEXT_PUBLIC_SITE_URL` to that domain.
+6. Point `bfntezz.com` at Netlify in **Domain settings**, then set `NEXT_PUBLIC_SITE_URL` to `https://bfntezz.com`.
