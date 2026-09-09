@@ -16,7 +16,7 @@ export function Footer() {
             Videos
           </Link>
           <a
-            href="https://www.instagram.com/cortez_mckinnon/"
+            href="https://www.instagram.com/bfn_tezz/"
             className="block hover:text-cream"
             target="_blank"
             rel="noreferrer"
