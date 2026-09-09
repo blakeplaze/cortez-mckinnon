@@ -1,7 +1,7 @@
 import { SuccessView } from "@/components/SuccessView";
 
 export const metadata = {
-  title: "Order confirmed | Tezz McKinnon est. 1996",
+  title: "Order confirmed | BFN Tezz est. 1996",
 };
 
 export default function SuccessPage() {

@@ -19,7 +19,7 @@ export const products: Product[] = [
     image: "/merch/1996-shirt.jpg",
     popular: true,
     description:
-      "Black tee with the Tezz McKinnon bottle mark. Original taste. Est. 1996.",
+      "Black tee with the BFN Tezz bottle mark. Original taste. Est. 1996.",
   },
   {
     slug: "life-without-limits-1996",
@@ -37,7 +37,7 @@ export const products: Product[] = [
     image: "/merch/denim-eagle.png",
     popular: true,
     description:
-      "The Denim Eagle Co. Spirit of the sky. Tezz McKinnon authentic, since 1996.",
+      "The Denim Eagle Co. Spirit of the sky. BFN Tezz authentic, since 1996.",
   },
   {
     slug: "roadie-96",
@@ -45,7 +45,7 @@ export const products: Product[] = [
     price: 2700,
     image: "/merch/roadie.png",
     popular: true,
-    description: "On the road. Skull graphic, Tezz McKinnon authentic, est. 1996.",
+    description: "On the road. Skull graphic, BFN Tezz authentic, est. 1996.",
   },
   {
     slug: "strong-man-96",
@@ -61,7 +61,7 @@ export const products: Product[] = [
     price: 2700,
     image: "/merch/americana-1996.jpg",
     popular: false,
-    description: "Retro Americana graphic. Tezz McKinnon, palms, and the 1996 line.",
+    description: "Retro Americana graphic. BFN Tezz, palms, and the 1996 line.",
   },
   {
     slug: "the-future-is-now-1996",
@@ -69,7 +69,7 @@ export const products: Product[] = [
     price: 2700,
     image: "/merch/the-future-is-now.jpg",
     popular: false,
-    description: "The future is right now. Tezz McKinnon authentic, est. 1996.",
+    description: "The future is right now. BFN Tezz authentic, est. 1996.",
   },
   {
     slug: "tuscaloosa-sportswear-original",
@@ -77,7 +77,7 @@ export const products: Product[] = [
     price: 2700,
     image: "/merch/tuscaloosa-sportswear.jpg",
     popular: false,
-    description: "Original Tuscaloosa sportswear. Tezz McKinnon authentic, 1996.",
+    description: "Original Tuscaloosa sportswear. BFN Tezz authentic, 1996.",
   },
   {
     slug: "dream-big-1996",
@@ -93,7 +93,7 @@ export const products: Product[] = [
     price: 2700,
     image: "/merch/stronger.jpg",
     popular: false,
-    description: "Vintage gym graphic. Genuine Tezz McKinnon.",
+    description: "Vintage gym graphic. Genuine BFN Tezz.",
   },
   {
     slug: "1996-womens-sportwear-tank",
@@ -109,7 +109,7 @@ export const products: Product[] = [
     price: 5500,
     image: "/merch/sportswear-hoodie.jpg",
     popular: false,
-    description: "Tuscaloosa sportswear hoodie. Tezz McKinnon authentic, 1996.",
+    description: "Tuscaloosa sportswear hoodie. BFN Tezz authentic, 1996.",
   },
   {
     slug: "96-heart-breakers",
@@ -125,7 +125,7 @@ export const products: Product[] = [
     price: 2700,
     image: "/merch/rebound-96.png",
     popular: false,
-    description: "Together we fight, we hustle, we rebound. Tezz McKinnon authentic.",
+    description: "Together we fight, we hustle, we rebound. BFN Tezz authentic.",
   },
   {
     slug: "game-plan-1996",
@@ -133,7 +133,7 @@ export const products: Product[] = [
     price: 2700,
     image: "/merch/game-plan.png",
     popular: false,
-    description: "Set your game plan. Try your luck. Tezz McKinnon authentic.",
+    description: "Set your game plan. Try your luck. BFN Tezz authentic.",
   },
   {
     slug: "diamond-raiders-1996",
@@ -158,7 +158,7 @@ export const products: Product[] = [
     price: 2700,
     image: "/merch/stay-true.jpg",
     popular: false,
-    description: "Authentic roots. Stay true. Genuine Tezz McKinnon.",
+    description: "Authentic roots. Stay true. Genuine BFN Tezz.",
   },
 ];
 

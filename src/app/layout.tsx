@@ -25,9 +25,9 @@ const plex = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tezz McKinnon est. 1996",
+  title: "BFN Tezz est. 1996",
   description:
-    "Official merch and visuals from Cortez McKinnon — Tezz McKinnon, Tuscaloosa hip-hop, est. 1996.",
+    "Official merch and visuals from Cortez McKinnon — BFN Tezz, Tuscaloosa hip-hop, est. 1996.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

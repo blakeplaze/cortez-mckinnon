@@ -18,7 +18,7 @@ export function Header() {
     <header className="fixed inset-x-0 top-0 z-40 border-b border-ice/20 bg-ink/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5">
         <Link href="/" className="leading-none" onClick={() => setMenuOpen(false)}>
-          <span className="display block text-[1.7rem] text-cream">TEZZ McKINNON</span>
+          <span className="display block text-[1.7rem] text-cream">BFN TEZZ</span>
           <span className="mono block text-[0.62rem] tracking-[0.28em] text-ice/75">EST. 1996</span>
         </Link>
 

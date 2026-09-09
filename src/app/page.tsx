@@ -17,9 +17,9 @@ export default function HomePage() {
               Signal live · tuscaloosa · est. 1996
             </p>
             <h1 className="display glow-text mt-4 text-[clamp(3.4rem,8.4vw,6.4rem)] leading-[0.86] tracking-[0.02em]">
-              TEZZ
+              BFN
               <br />
-              MCKINNON
+              TEZZ
             </h1>
             <p className="mt-6 max-w-md text-sm leading-6 text-cream/70">
               Shirts and visuals. Nothing extra. Shop the 1996 line or play the
@@ -82,7 +82,7 @@ export default function HomePage() {
         <h2 className="display text-5xl">The artist</h2>
         <p className="mt-6 text-sm leading-7 text-cream/75">
           Demetrius Cortez McKinnon, professionally known as Cortez McKinnon and
-          Tezz McKinnon, is a hip-hop artist from Tuscaloosa, Alabama. Music
+          BFN Tezz, is a hip-hop artist from Tuscaloosa, Alabama. Music
           became the way out — raw stories, independent releases, and his own
           label, Hard Hittaz Entertainment. This site is for the shirts and the
           videos. Everything else lives on YouTube and Instagram.

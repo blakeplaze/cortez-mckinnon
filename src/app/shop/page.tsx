@@ -2,7 +2,7 @@ import { ProductCard } from "@/components/ProductCard";
 import { products } from "@/lib/products";
 
 export const metadata = {
-  title: "Shop | Tezz McKinnon est. 1996",
+  title: "Shop | BFN Tezz est. 1996",
 };
 
 export default function ShopPage() {

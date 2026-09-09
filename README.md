@@ -1,4 +1,4 @@
-# Tezz McKinnon est. 1996
+# BFN Tezz est. 1996
 
 Official merch and videos site for Cortez McKinnon. Shop shirts on this site and play the existing YouTube visuals.
 

@@ -1,7 +1,7 @@
 import { VideoGallery } from "@/components/VideoGallery";
 
 export const metadata = {
-  title: "Videos | Tezz McKinnon est. 1996",
+  title: "Videos | BFN Tezz est. 1996",
 };
 
 export default function VideosPage() {

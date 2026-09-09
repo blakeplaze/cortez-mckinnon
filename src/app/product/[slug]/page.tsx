@@ -11,7 +11,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const product = getProduct(slug);
-  return { title: product ? `${product.name} | Tezz McKinnon` : "Merch" };
+  return { title: product ? `${product.name} | BFN Tezz` : "Merch" };
 }
 
 export default async function ProductPage({ params }: { params: Promise<{ slug: string }> }) {
